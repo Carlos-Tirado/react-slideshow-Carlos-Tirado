@@ -3,36 +3,41 @@ body {
     padding-left: 5%;
     padding-right: 5%;
     text-align: left;
+    
 }
 
 h1 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(189, 91, 185);
-    font-size: 300%;
+    font-size: 310%;
+    padding-bottom: 40px;
 }
 
-/* .Slidesapp {
-    width: 100vw;
+.Slidesapp {
+    width: 90vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center; 
+    border-style: dashed;
+    border-color: rgb(116, 116, 114);
+    
 
-}  */
+} 
 
-.eachMovie {
-    height: 50%;
+.eachSlide {
+    
     width: 80%;
     background-color: rgb(71, 69, 73);
     color: rgb(250, 215, 246);
     text-align: center;
-    padding-bottom: 25%;
+    padding-bottom: 4%;
     padding-top: 2%;
     padding-right: 5%;
-    padding-left: 5%;
+    padding-left: 3%;
     align-items: center;
-    opacity: 0.95;
+    opacity: 0.96;
 
 }
 
@@ -45,6 +50,17 @@ h1 {
 
 
 img {
-    width: 35%;
+    width: 40%;
     float:left; 
+    padding-right: 2%;
+    padding-top: 2%;
+    
+}
+
+button {
+padding: 5px 40px;
+border-radius: 8px;
+background-color: rgb(189, 91, 185);
+color:rgb(243, 241, 237);
+
 }
