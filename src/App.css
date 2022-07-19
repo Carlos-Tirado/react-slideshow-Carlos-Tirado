@@ -1,0 +1,50 @@
+body {
+    background-image: url("bgslideshow.jpg");  
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: left;
+}
+
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(189, 91, 185);
+    font-size: 300%;
+}
+
+/* .Slidesapp {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+
+}  */
+
+.eachMovie {
+    height: 50%;
+    width: 80%;
+    background-color: rgb(71, 69, 73);
+    color: rgb(250, 215, 246);
+    text-align: center;
+    padding-bottom: 25%;
+    padding-top: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
+    align-items: center;
+    opacity: 0.95;
+
+}
+
+.title {
+    font-size: 30px;
+    color: rgb(223, 133, 220);
+}
+
+.release_date { font-size: 15px;}
+
+
+img {
+    width: 35%;
+    float:left; 
+}
