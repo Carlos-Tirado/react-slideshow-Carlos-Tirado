@@ -8,7 +8,7 @@ body {
 
 h1 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(189, 91, 185);
+    color: rgb(191, 55, 186);
     font-size: 310%;
     padding-bottom: 40px;
 }
@@ -64,3 +64,5 @@ background-color: rgb(189, 91, 185);
 color:rgb(243, 241, 237);
 
 }
+
+button:hover {background-color: #df24c0}
